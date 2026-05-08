@@ -1,2 +1,4 @@
 # projeto-front-end
-Projeto de font-end desenvolvido para a disciplina Programação Web Front-End utilizando HTML, CSS visando criar um site para um comércio locar (Doce História).
+O projeto servirá para atender o comércio local, através da criação de uma página web. A proposta é estimular a utilização de TI em pequenos comércios 
+locais, através do desenvolvimento de websites. E além disso, facilitar também o acesso a esses pequenos comércios. Através de um site, o cliente 
+consegue visualizar os produtos disponíveis e com apenas um clique, comprar o produto, realizar seu cadastro e recebê-lo em sua casa.
