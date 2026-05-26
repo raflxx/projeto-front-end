@@ -310,7 +310,7 @@ footer p{
 
 .curriculos h3{
     color:white;
-    font-size:48px;
+    font-size:26px;
     margin-bottom:20px;
 }
 
@@ -327,7 +327,7 @@ footer p{
 .curriculos a{
     color:white;
     text-decoration:none;
-    font-size:22px;
+    font-size:16px;
     font-weight:500;
 
     transition:0.3s;
@@ -335,5 +335,4 @@ footer p{
 
 .curriculos a:hover{
     color:#f8c8dc;
-}
 }
