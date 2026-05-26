@@ -299,4 +299,40 @@ footer p{
     .sobre-imagem img{
         width:100%;
     }
+
+    /* CURRÍCULOS */
+
+.curriculos{
+    text-align:center;
+    margin-top:30px;
+}
+
+.curriculos h3{
+    color:white;
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.curriculos ul{
+    list-style:none;
+
+    display:flex;
+    justify-content:center;
+    gap:40px;
+
+    padding:0;
+}
+
+.curriculos a{
+    color:white;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:500;
+
+    transition:0.3s;
+}
+
+.curriculos a:hover{
+    color:#f8c8dc;
+}
 }
