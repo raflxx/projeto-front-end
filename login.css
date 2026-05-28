@@ -38,7 +38,52 @@ body{
 
     box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
+.left{
+    width:55%;
 
+    background:
+        linear-gradient(rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),
+        url('imagens/Login.jpg');
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    padding:40px;
+}
+
+.left h1{
+    font-size:52px;
+    font-family:'Playfair Display', serif;
+
+    margin-bottom:20px;
+}
+
+.left p{
+    font-size:18px;
+    line-height:30px;
+
+    max-width:500px;
+}
+
+.right{
+    width:45%;
+
+    padding:35px 45px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 /* FORMULÁRIO */
 
 .form-box{
