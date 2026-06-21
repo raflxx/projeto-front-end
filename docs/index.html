@@ -17,9 +17,42 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="acessibilidade.css">
+
 </head>
 
 <body>
+
+    <div class="menu-acessibilidade">
+
+    <button
+        class="btn-acessibilidade"
+        onclick="toggleMenu()">
+
+        ♿ Acessibilidade
+
+    </button>
+
+    <div
+        id="opcoes-acessibilidade"
+        class="opcoes">
+
+        <button onclick="aumentarFonte()">
+            Aumentar Texto
+        </button>
+
+        <button onclick="diminuirFonte()">
+            Diminuir Texto
+        </button>
+
+        <button onclick="alternarContraste()">
+            Alto Contraste
+        </button>
+
+    </div>
+
+</div>
 
     <!-- HEADER -->
 
@@ -264,6 +297,8 @@
         </p>
 
     </footer>
+
+    <script src="acessibilidade.js"></script>
 
 </body>
 
